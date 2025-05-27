@@ -9,6 +9,11 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
+    "@types/crypto-js": "^4.2.2",
     "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.5.0"
   }
 }
