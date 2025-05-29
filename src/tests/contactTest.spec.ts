@@ -54,4 +54,4 @@ const testData = generateMultipleFakeUserData(3);
 // Export data to JSON file
 exportToJson(testData, "testData_en.json");
 
-exportTocsv(testData, "testData_en.csv");
+// exportTocsv(testData, "testData_en.csv");
