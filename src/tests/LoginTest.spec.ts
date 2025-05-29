@@ -4,19 +4,19 @@ import HomePage from "../pages/HomePage";
 import { encrypt, decrypt } from "../utils/cryptoUtil";
 import { encryptEnvFile, decryptEnvFile } from "../utils/encryptEnvFile";
 
-test.skip("Login Test", async ({ page }) => {
+test("Login Test", async ({ page }) => {
   const loginPage = new LoginPage(page);
-  console.log(process.env.USER_ID!);
-  console.log(process.env.PASSWORD!);
+  console.log(decrypt(process.env.USER_ID!));
+  console.log(decrypt(process.env.PASSWORD!));
   await loginPage.navigateToLoginPage();
-  await loginPage.fillUsername(decrypt(process.env.userid!));
-  await loginPage.fillPassword(decrypt(process.env.password!));
+  await loginPage.fillUsername(decrypt(process.env.USER_ID!!));
+  await loginPage.fillPassword(decrypt(process.env.PASSWORD!));
   const homePage = await loginPage.clickLoginButton();
   await homePage.waitForPageLoad();
   await homePage.expectServiceTitleToBeVisible();
 });
 
-test("Sample Test", async ({ page }) => {
+test.skip("Sample Test", async ({ page }) => {
   // const plainText = "Bipin Behera";
   // const encryptedText = encrypt(plainText);
   // console.log("SALT", process.env.SALT);
@@ -24,4 +24,6 @@ test("Sample Test", async ({ page }) => {
   // const decryptedText = decrypt(encryptedText);
   // console.log("Decrypted Text:", decryptedText);
   encryptEnvFile();
+  // decryptEnvFile();
+  console.log("Encryption and decryption of .env file completed.");
 });

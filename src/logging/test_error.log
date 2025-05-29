@@ -1,0 +1,62 @@
+2025-05-28T06:01:04+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T06:01:04+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T07:02:29+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-28T07:05:34+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-28T17:04:24+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:04:24+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:06:50+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:06:50+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:12:07+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-29T11:33:39+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-29T11:33:48+05:30 [error]: Error waiting for page load: page.waitForLoadState: Test ended.. Retrying...
+2025-05-29T11:33:48+05:30 [error]: Error waiting for page load: page.waitForLoadState: Test ended.. Retrying...

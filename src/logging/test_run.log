@@ -1,0 +1,273 @@
+2025-05-27T21:47:28+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-27T21:47:28+05:30 [info]: Password filled: Kite@#$2018
+2025-05-27T21:49:37+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-27T21:49:37+05:30 [info]: Password filled..
+2025-05-27T21:51:13+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-27T21:51:13+05:30 [info]: Password filled..
+2025-05-27T21:51:16+05:30 [info]: Login successfully..
+2025-05-28T06:00:29+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:00:29+05:30 [info]: Password filled..
+2025-05-28T06:00:34+05:30 [info]: Login successfully..
+2025-05-28T06:01:04+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T06:01:04+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T06:01:50+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:01:50+05:30 [info]: Password filled..
+2025-05-28T06:01:53+05:30 [info]: Login successfully..
+2025-05-28T06:03:23+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:03:23+05:30 [info]: Password filled..
+2025-05-28T06:03:24+05:30 [info]: Login successfully..
+2025-05-28T06:03:35+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:16:12+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:16:12+05:30 [info]: Password filled..
+2025-05-28T06:16:16+05:30 [info]: Login successfully..
+2025-05-28T06:16:28+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:22:33+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:22:33+05:30 [info]: Password filled..
+2025-05-28T06:22:37+05:30 [info]: Login successfully..
+2025-05-28T06:22:53+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:22:53+05:30 [info]: Contacts Tab is clicked
+2025-05-28T06:22:53+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T06:26:16+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:26:16+05:30 [info]: Password filled..
+2025-05-28T06:26:20+05:30 [info]: Login successfully..
+2025-05-28T06:26:40+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:26:40+05:30 [info]: Contacts Tab is clicked
+2025-05-28T06:26:40+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T06:26:40+05:30 [info]: New button is clicked
+2025-05-28T06:31:43+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:31:43+05:30 [info]: Password filled..
+2025-05-28T06:31:46+05:30 [info]: Login successfully..
+2025-05-28T06:32:05+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:32:05+05:30 [info]: Contacts Tab is clicked
+2025-05-28T06:32:05+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T06:32:05+05:30 [info]: New button is clicked
+2025-05-28T06:44:56+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:44:56+05:30 [info]: Password filled..
+2025-05-28T06:45:02+05:30 [info]: Login successfully..
+2025-05-28T06:45:13+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:45:13+05:30 [info]: Contacts Tab is clicked
+2025-05-28T06:45:13+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T06:45:13+05:30 [info]: New button is clicked
+2025-05-28T06:49:11+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T06:49:11+05:30 [info]: Password filled..
+2025-05-28T06:49:16+05:30 [info]: Login successfully..
+2025-05-28T06:49:28+05:30 [info]: Contacts Tab is visible
+2025-05-28T06:49:28+05:30 [info]: Contacts Tab is clicked
+2025-05-28T06:49:28+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T06:49:28+05:30 [info]: New button is clicked
+2025-05-28T07:01:58+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T07:01:58+05:30 [info]: Password filled..
+2025-05-28T07:02:02+05:30 [info]: Login successfully..
+2025-05-28T07:02:29+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-28T07:05:00+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T07:05:00+05:30 [info]: Password filled..
+2025-05-28T07:05:04+05:30 [info]: Login successfully..
+2025-05-28T07:05:34+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-28T07:06:38+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T07:06:38+05:30 [info]: Password filled..
+2025-05-28T07:06:44+05:30 [info]: Login successfully..
+2025-05-28T07:33:04+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T07:33:04+05:30 [info]: Password filled..
+2025-05-28T07:33:08+05:30 [info]: Login successfully..
+2025-05-28T07:33:08+05:30 [info]: Contacts Tab is visible
+2025-05-28T07:33:15+05:30 [info]: Contacts Tab is clicked
+2025-05-28T07:33:15+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T07:33:16+05:30 [info]: New button is clicked
+2025-05-28T07:33:18+05:30 [info]: Last name is filled as Behera
+2025-05-28T07:49:40+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T07:49:40+05:30 [info]: Password filled..
+2025-05-28T07:49:46+05:30 [info]: Login successfully..
+2025-05-28T07:49:46+05:30 [info]: Contacts Tab is visible
+2025-05-28T07:49:58+05:30 [info]: Contacts Tab is clicked
+2025-05-28T07:49:58+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T07:50:00+05:30 [info]: New button is clicked
+2025-05-28T07:52:22+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T07:52:22+05:30 [info]: Password filled..
+2025-05-28T07:52:28+05:30 [info]: Login successfully..
+2025-05-28T07:52:28+05:30 [info]: Contacts Tab is visible
+2025-05-28T07:52:39+05:30 [info]: Contacts Tab is clicked
+2025-05-28T07:52:39+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T07:52:41+05:30 [info]: New button is clicked
+2025-05-28T07:52:43+05:30 [info]: Last name is filled as Behera
+2025-05-28T07:52:43+05:30 [info]: Account Name is filled as Ashok
+2025-05-28T07:52:43+05:30 [info]: Save Button is clicked
+2025-05-28T08:05:15+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T08:05:15+05:30 [info]: Password filled..
+2025-05-28T08:05:23+05:30 [info]: Login successfully..
+2025-05-28T08:05:23+05:30 [info]: Contacts Tab is visible
+2025-05-28T08:05:37+05:30 [info]: Contacts Tab is clicked
+2025-05-28T08:05:37+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T08:05:40+05:30 [info]: New button is clicked
+2025-05-28T08:05:42+05:30 [info]: Last name is filled as Behera
+2025-05-28T08:05:42+05:30 [info]: Account Name is filled as Ashok
+2025-05-28T08:05:42+05:30 [info]: Save Button is clicked
+2025-05-28T08:07:06+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T08:07:06+05:30 [info]: Password filled..
+2025-05-28T08:07:11+05:30 [info]: Login successfully..
+2025-05-28T08:07:11+05:30 [info]: Contacts Tab is visible
+2025-05-28T08:07:24+05:30 [info]: Contacts Tab is clicked
+2025-05-28T08:07:24+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T08:07:27+05:30 [info]: New button is clicked
+2025-05-28T08:07:29+05:30 [info]: Last name is filled as Maharana
+2025-05-28T08:07:29+05:30 [info]: Account Name is filled as Ashok
+2025-05-28T08:07:29+05:30 [info]: Save Button is clicked
+2025-05-28T08:24:37+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T08:24:37+05:30 [info]: Password filled..
+2025-05-28T08:24:42+05:30 [info]: Login successfully..
+2025-05-28T08:24:42+05:30 [info]: Contacts Tab is visible
+2025-05-28T08:24:50+05:30 [info]: Contacts Tab is clicked
+2025-05-28T08:24:50+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T08:24:51+05:30 [info]: New button is clicked
+2025-05-28T08:24:54+05:30 [info]: Last name is filled as Maharana
+2025-05-28T09:11:33+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T09:11:33+05:30 [info]: Password filled..
+2025-05-28T09:11:37+05:30 [info]: Login successfully..
+2025-05-28T09:11:37+05:30 [info]: Contacts Tab is visible
+2025-05-28T09:11:43+05:30 [info]: Contacts Tab is clicked
+2025-05-28T09:11:43+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T09:11:45+05:30 [info]: New button is clicked
+2025-05-28T09:11:47+05:30 [info]: Account Name Ashok is selected
+2025-05-28T09:11:47+05:30 [info]: Save Button is clicked
+2025-05-28T09:16:55+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T09:16:55+05:30 [info]: Password filled..
+2025-05-28T09:16:58+05:30 [info]: Login successfully..
+2025-05-28T09:16:58+05:30 [info]: Contacts Tab is visible
+2025-05-28T09:17:05+05:30 [info]: Contacts Tab is clicked
+2025-05-28T09:17:05+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T09:17:06+05:30 [info]: New button is clicked
+2025-05-28T09:17:09+05:30 [info]: Account Name Ashok is selected
+2025-05-28T09:17:09+05:30 [info]: Save Button is clicked
+2025-05-28T09:20:56+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T09:20:56+05:30 [info]: Password filled..
+2025-05-28T09:21:00+05:30 [info]: Login successfully..
+2025-05-28T09:21:00+05:30 [info]: Contacts Tab is visible
+2025-05-28T09:21:07+05:30 [info]: Contacts Tab is clicked
+2025-05-28T09:21:07+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T09:21:08+05:30 [info]: New button is clicked
+2025-05-28T09:21:11+05:30 [info]: Account Name Ashok is selected
+2025-05-28T09:21:11+05:30 [info]: Save Button is clicked
+2025-05-28T09:30:07+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T09:30:07+05:30 [info]: Password filled..
+2025-05-28T09:30:11+05:30 [info]: Login successfully..
+2025-05-28T09:30:11+05:30 [info]: Contacts Tab is visible
+2025-05-28T09:30:17+05:30 [info]: Contacts Tab is clicked
+2025-05-28T09:30:17+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T09:30:19+05:30 [info]: New button is clicked
+2025-05-28T09:30:21+05:30 [info]: Account Name Ashok is selected
+2025-05-28T09:30:21+05:30 [info]: Save Button is clicked
+2025-05-28T09:31:18+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T09:31:18+05:30 [info]: Password filled..
+2025-05-28T09:31:20+05:30 [info]: Login successfully..
+2025-05-28T09:31:20+05:30 [info]: Contacts Tab is visible
+2025-05-28T09:31:29+05:30 [info]: Contacts Tab is clicked
+2025-05-28T09:31:29+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T09:31:31+05:30 [info]: New button is clicked
+2025-05-28T09:31:34+05:30 [info]: Account Name Ashok is selected
+2025-05-28T09:31:34+05:30 [info]: Save Button is clicked
+2025-05-28T12:51:15+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T12:51:15+05:30 [info]: Password filled..
+2025-05-28T12:51:17+05:30 [info]: Login successfully..
+2025-05-28T12:51:17+05:30 [info]: Contacts Tab is visible
+2025-05-28T12:51:41+05:30 [info]: Contacts Tab is clicked
+2025-05-28T12:51:41+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T12:51:41+05:30 [info]: New button is clicked
+2025-05-28T12:51:43+05:30 [info]: Account Name Ashok is selected
+2025-05-28T12:51:43+05:30 [info]: Save Button is clicked
+2025-05-28T12:51:45+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T12:51:45+05:30 [info]: Password filled..
+2025-05-28T12:51:47+05:30 [info]: Login successfully..
+2025-05-28T12:51:47+05:30 [info]: Contacts Tab is visible
+2025-05-28T12:51:49+05:30 [info]: Contacts Tab is clicked
+2025-05-28T12:51:49+05:30 [info]: Navigated to Contact Page Successfully.
+2025-05-28T12:51:49+05:30 [info]: New button is clicked
+2025-05-28T12:51:51+05:30 [info]: Account Name Ashok is selected
+2025-05-28T12:51:51+05:30 [info]: Save Button is clicked
+2025-05-28T12:51:52+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T12:51:52+05:30 [info]: Password filled..
+2025-05-28T12:51:54+05:30 [info]: Login successfully..
+2025-05-28T12:51:54+05:30 [info]: Contacts Tab is visible
+2025-05-28T12:51:55+05:30 [info]: Contacts Tab is clicked
+2025-05-28T16:56:01+05:30 [info]: Username filled: 
+2025-05-28T16:56:01+05:30 [info]: Password filled..
+2025-05-28T16:56:02+05:30 [info]: Login successfully..
+2025-05-28T16:56:02+05:30 [info]: Contacts Tab is visible
+2025-05-28T17:01:53+05:30 [info]: Username filled: 
+2025-05-28T17:01:53+05:30 [info]: Password filled..
+2025-05-28T17:01:54+05:30 [info]: Login successfully..
+2025-05-28T17:01:54+05:30 [info]: Contacts Tab is visible
+2025-05-28T17:03:54+05:30 [info]: Username filled: 
+2025-05-28T17:03:54+05:30 [info]: Password filled..
+2025-05-28T17:03:54+05:30 [info]: Login successfully..
+2025-05-28T17:04:24+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:04:24+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:06:20+05:30 [info]: Username filled: 
+2025-05-28T17:06:20+05:30 [info]: Password filled..
+2025-05-28T17:06:20+05:30 [info]: Login successfully..
+2025-05-28T17:06:50+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:06:50+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-28T17:11:44+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-28T17:11:44+05:30 [info]: Password filled..
+2025-05-28T17:11:46+05:30 [info]: Login successfully..
+2025-05-28T17:12:07+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-29T11:33:06+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-29T11:33:06+05:30 [info]: Password filled..
+2025-05-29T11:33:13+05:30 [info]: Login successfully..
+2025-05-29T11:33:39+05:30 [error]: Error waiting for page load: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('span[title="Service"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+[2m  - expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('span[title="Service"]')[22m
+. Retrying...
+2025-05-29T11:33:42+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-29T11:33:42+05:30 [info]: Password filled..
+2025-05-29T11:33:48+05:30 [info]: Login successfully..
+2025-05-29T11:33:48+05:30 [error]: Error waiting for page load: page.waitForLoadState: Test ended.. Retrying...
+2025-05-29T11:33:48+05:30 [error]: Error waiting for page load: page.waitForLoadState: Test ended.. Retrying...
+2025-05-29T11:51:28+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-29T11:51:28+05:30 [info]: Password filled..
+2025-05-29T11:51:33+05:30 [info]: Login successfully..

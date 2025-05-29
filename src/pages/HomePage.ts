@@ -1,14 +1,18 @@
 import { Page, expect } from "@playwright/test";
-import { time } from "console";
+import { error, time } from "console";
+import logger from "../utils/LoggerUtil";
+import ContactPage from "./ContactPage";
 
 export default class HomePage {
-  private serviceTitleLocator = 'span[title="Service"]'; // Target the span specifically
+  private serviceTitleLocator = 'span[title="Contacts"]'; // Target the span specifically
 
   // Alternative specific locators you can use:
   private serviceTitleSpan = 'span.slds-truncate[title="Service"]';
   private serviceTitleByDataTarget =
     '[data-target-selection-name="18091d42e3de45d9832ee76c43bc1481"]';
   private serviceTitleExact = 'span[title="Service"]:not(button)';
+  private readonly contactsLinkLocators = "a[title='Contacts']";
+  private readonly contactsLinkLocator = "Contacts";
   constructor(private page: Page) {}
 
   async waitForPageLoad() {
@@ -16,17 +20,31 @@ export default class HomePage {
 
     try {
       // Step 1: Wait for basic page load
-      await this.page.waitForLoadState("load", { timeout: 20000 });
+      await this.page
+        .waitForLoadState("load", { timeout: 20000 })
+        .catch((error) => {
+          logger.error(
+            `Error waiting for page load: ${error.message}. Retrying...`
+          );
+          throw error; // Re-throw to ensure test fails
+        });
       console.log("📄 Basic page load complete");
 
       // Step 2: Wait for Salesforce Lightning navigation (most reliable indicator)
-      await this.page.waitForSelector(
-        ".slds-context-bar, .oneAppNavContainer, .slds-global-header",
-        {
-          timeout: 30000,
-          state: "visible",
-        }
-      );
+      await this.page
+        .waitForSelector(
+          ".slds-context-bar, .oneAppNavContainer, .slds-global-header",
+          {
+            timeout: 30000,
+            state: "visible",
+          }
+        )
+        .catch((error) => {
+          logger.error(
+            `Error waiting for page load: ${error.message}. Retrying...`
+          );
+          throw error; // Re-throw to ensure test fails
+        });
       console.log("🧭 Salesforce navigation loaded");
 
       // // Step 3: Wait for Lightning app launcher (waffle menu)
@@ -64,8 +82,9 @@ export default class HomePage {
             state: "visible",
           }
         )
-        .catch(() => {
+        .catch((error) => {
           console.warn("⚠️ Main content not found, continuing...");
+          logger.error(`Error waiting for page load: ${error}. Retrying...`);
         });
 
       // Step 7: Additional buffer for Lightning components to initialize
@@ -74,6 +93,9 @@ export default class HomePage {
       console.log("✅ Salesforce home page completely loaded");
     } catch (error) {
       console.error("❌ Home page loading failed:", error.message);
+      logger.error(
+        `Error waiting for page load: ${error.message}. Retrying...`
+      );
 
       // // Take screenshot for debugging
       // await this.page.screenshot({
@@ -92,7 +114,22 @@ export default class HomePage {
         timeout: 15000,
       })
       .catch((error) => {
+        logger.error(
+          `Error waiting for page load: ${error.message}. Retrying...`
+        );
         throw error; // rethrow the error if needed
       });
+  }
+
+  async navigateToContactTab() {
+    logger.info("Contacts Tab is visible");
+    await this.page
+      .getByRole("link", { name: this.contactsLinkLocator })
+      .click();
+    logger.info("Contacts Tab is clicked");
+    await expect(
+      this.page.getByRole("link", { name: this.contactsLinkLocator })
+    ).toBeVisible();
+    return new ContactPage(this.page);
   }
 }
