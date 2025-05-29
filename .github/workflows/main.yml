@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test ./src/tests/LoginPage.spec.ts --reporter=html
+        run: npx playwright test ./src/tests/LoginTest.spec.ts --reporter=html
         continue-on-error: true # Continue even if tests fail to upload reports
 
       - name: Upload Playwright Report
