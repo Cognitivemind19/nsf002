@@ -29,7 +29,7 @@ jobs:
         env:
           SALT: ${{ secrets.SALT }}
           run: echo ${{ secrets.SALT }}
-        run: npx playwright test ./src/tests/LoginTest.spec.ts --headed
+        run: npx playwright test ./src/tests/LoginTest.spec.ts 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
