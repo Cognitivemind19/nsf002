@@ -2,7 +2,9 @@ name: Playwright Tests
 on:
   push:
     branches: [main, master]
+    branches: [main, master]
   pull_request:
+    branches: [main, master]
     branches: [main, master]
 jobs:
   test:
@@ -11,7 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
+          node-version: 20
           node-version: 20
       - name: Install dependencies
         run: npm ci
