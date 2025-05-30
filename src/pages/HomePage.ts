@@ -132,4 +132,6 @@ export default class HomePage {
     ).toBeVisible();
     return new ContactPage(this.page);
   }
+
+
 }

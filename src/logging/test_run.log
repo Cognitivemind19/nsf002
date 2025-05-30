@@ -274,3 +274,38 @@ Call log:
 2025-05-29T18:08:21+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
 2025-05-29T18:08:21+05:30 [info]: Password filled..
 2025-05-29T18:08:23+05:30 [info]: Login successfully..
+2025-05-30T04:37:05+05:30 [info]: Username filled: 
+2025-05-30T04:37:05+05:30 [info]: Password filled..
+2025-05-30T04:37:06+05:30 [info]: Login successfully..
+2025-05-30T04:37:26+05:30 [info]: Username filled: 
+2025-05-30T04:37:26+05:30 [info]: Password filled..
+2025-05-30T04:37:27+05:30 [info]: Login successfully..
+2025-05-30T04:38:00+05:30 [info]: Username filled: 
+2025-05-30T04:38:00+05:30 [info]: Password filled..
+2025-05-30T04:38:00+05:30 [info]: Login successfully..
+2025-05-30T04:38:30+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-30T04:38:30+05:30 [error]: Error waiting for page load: page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-30T04:39:20+05:30 [info]: Username filled: 
+2025-05-30T04:39:20+05:30 [info]: Password filled..
+2025-05-30T04:39:21+05:30 [info]: Login successfully..
+2025-05-30T04:39:29+05:30 [error]: Error waiting for page load: page.waitForSelector: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-30T04:39:29+05:30 [error]: Error waiting for page load: page.waitForSelector: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('.slds-context-bar, .oneAppNavContainer, .slds-global-header') to be visible[22m
+. Retrying...
+2025-05-30T04:41:39+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-30T04:41:39+05:30 [info]: Password filled..
+2025-05-30T04:41:41+05:30 [info]: Login successfully..
+2025-05-30T04:46:58+05:30 [info]: Username filled: bipin.behera26-ybgj@force.com
+2025-05-30T04:46:58+05:30 [info]: Password filled..
+2025-05-30T04:47:03+05:30 [info]: Login successfully..
+2025-05-30T04:47:16+05:30 [info]: Login successfully Completed.
