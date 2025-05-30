@@ -9,8 +9,7 @@ const authFile = "src/config/auth.json";
 
 test("Login Test", async ({ page }) => {
   const loginPage = new LoginPage(page);
-  // console.log(decrypt(process.env.USER_ID!));
-  // console.log(decrypt(process.env.PASSWORD!));
+
   await loginPage.navigateToLoginPage();
   await loginPage.fillUsername(decrypt(process.env.USER_ID!));
   await loginPage.fillPassword(decrypt(process.env.PASSWORD!));
