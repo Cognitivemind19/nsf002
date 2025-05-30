@@ -6,7 +6,5 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /README.md/
-/config/.env/
-/config/.env.qa/
-/config/.env.site/
+
 
