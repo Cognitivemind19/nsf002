@@ -40,7 +40,7 @@ jobs:
           SALT: ${{ secrets.SALT }}
           # Add other environment variables here if needed
           CI: true
-          NODE_ENV: test
+          NODE_ENV:
         run: npx playwright test ./src/tests/LoginTest.spec.ts --reporter=html
         continue-on-error: false  # Set to true if you want pipeline to continue even if tests fail
 
